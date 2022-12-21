@@ -176,7 +176,7 @@ $('document').ready(function(){
 		function msgLoop (i) {
 			$("p:nth-child("+i+")").fadeOut('slow').delay(900).promise().done(function(){
 			i=i+1;
-			$("p:nth-child("+i+")").fadeIn('slow').delay(2200);
+			$("p:nth-child("+i+")").fadeIn('slow').delay(2050);
 			if(i==45){
 				$("p:nth-child(44)").fadeOut('slow').promise().done(function () {
 					$('.cake').fadeIn('fast');
